@@ -2,6 +2,10 @@
 
 A native macOS utility that adds context-aware file tools to Finder’s right-click menu. No Dock icon, no dashboard, and no menu-bar icon by default. A configuration window controls the menu, background behavior, and recovery history.
 
+![Grouped action menu with colored icons and image format badges](docs/images/menu-preview.png)
+
+*Menu preview rendered from the app’s native icons and menu content.*
+
 Built in the same style as [Meeting Mode](https://github.com/berkegokmen1/meeting-mode): native Swift, an AppKit lifecycle, no third-party runtime dependencies, straightforward scripts, and a standalone `.app` plus `.pkg` installer. Settings and small action panels use SwiftUI. Inspired by [Tangerine’s](https://tangerineformac.com/) local processing and unobtrusive workflow; this app uses Finder menus rather than its drag gesture.
 
 ## License
@@ -117,8 +121,3 @@ Assets/                  Reserved for bundled assets
 
 See [validation notes](docs/VALIDATION.md) for verified results and remaining live-system checks.
 
-## Menu preview
-
-![Grouped action menu with colored icons and image format badges](docs/images/menu-preview.png)
-
-Rendered from the shared native menu data and icons, not a live Finder screenshot.
